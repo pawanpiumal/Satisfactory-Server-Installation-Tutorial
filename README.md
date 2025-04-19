@@ -64,7 +64,7 @@ After=syslog.target network.target nss-lookup.target network-online.target
 
 [Service]
 Environment="LD_LIBRARY_PATH=./linux64"
-ExecStart=/home/gppa/Satisfactory/FactoryServer.sh -ServerQueryPort=15777 -BeaconPort=15000 -Port=7777 -log -unattended -multihome=0.0.0.0
+ExecStart=/home/user/Satisfactory/FactoryServer.sh -ServerQueryPort=15777 -BeaconPort=15000 -Port=7777 -log -unattended -multihome=0.0.0.0
 User=user
 Group=user
 StandardOutput=journal
